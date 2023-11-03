@@ -57,8 +57,23 @@
 flex: 0 0 70px;
 }
 
-.picture {
-    flex: 0 0 512px;
-    width: 512px;
-    height: 512px;
+/*.picture {*/
+/*    flex: 0 0 512px;*/
+/*    width: 512px;*/
+/*    height: 512px;*/
+/*}*/
+
+
+.shadow-text{
+  color: #ffffff; /* Цвет  текста */
+  font-size: 1em; /* Размер  текста */
+  padding: 10px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.shadow-text:hover{
+  color: #6cfc02; /* Меняем цвет текста */
+
 }
